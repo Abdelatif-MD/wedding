@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#03070d">
+<meta name="description" content="دعوة إلكترونية لحفل زفاف عبد النور — 11 سبتمبر 2026">
+<title>دعوة زفاف عبد النور</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cairo:wght@400;600;700;800&display=swap');
+:root{--bg:#02060b;--panel:#071522;--gold:#d8a94c;--gold2:#ffe29a;--blue:#25b7ff;--white:#fff9ec;--muted:#aebdc8}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#02060b;color:var(--white);font-family:Cairo,Arial,sans-serif;overflow-x:hidden}
+body:before{content:"";position:fixed;inset:0;z-index:-2;background:radial-gradient(circle at 50% 15%,#12324a 0,transparent 35%),radial-gradient(circle at 20% 80%,rgba(20,126,180,.13),transparent 35%),#02060b}
+body:after{content:"";position:fixed;inset:0;z-index:-1;opacity:.13;pointer-events:none;background-image:linear-gradient(rgba(37,183,255,.18) 1px,transparent 1px),linear-gradient(90deg,rgba(37,183,255,.18) 1px,transparent 1px);background-size:55px 55px;mask-image:linear-gradient(#000,transparent 82%)}
+button,a{font:inherit}.hidden{display:none!important}
+
+/* Opening */
+#opening{position:fixed;inset:0;z-index:100;display:grid;place-items:center;background:radial-gradient(circle,#10283c,#02060b 65%);transition:opacity .9s,visibility .9s}
+#opening.hide{opacity:0;visibility:hidden;pointer-events:none}
+.open-card{text-align:center;width:min(92%,560px);padding:45px 24px;border:1px solid rgba(216,169,76,.55);border-radius:30px;background:rgba(3,10,17,.72);box-shadow:0 0 80px rgba(37,183,255,.12)}
+.mini{color:var(--gold2);letter-spacing:3px;font-size:12px}.open-name{font:700 clamp(58px,16vw,105px) Amiri;color:var(--gold2);margin:15px 0;text-shadow:0 0 30px rgba(216,169,76,.25)}
+.open-card p{color:#d5e0e6}.open-btn{margin-top:20px;padding:15px 34px;border:0;border-radius:999px;background:linear-gradient(135deg,#c18b2c,#ffe19a);color:#07111b;font-weight:800;cursor:pointer;box-shadow:0 0 28px rgba(216,169,76,.2)}
+.tap{font-size:12px;color:#7f929f;margin-top:14px}
+
+/* Layout */
+main{width:min(100%,980px);margin:auto;padding:20px}
+section{margin:28px 0}.glass{background:linear-gradient(145deg,rgba(7,21,34,.92),rgba(2,8,14,.93));border:1px solid rgba(216,169,76,.28);border-radius:28px;box-shadow:0 20px 80px rgba(0,0,0,.28);overflow:hidden}
+.hero{min-height:92vh;display:grid;place-items:center;position:relative}.hero-inner{padding:50px 25px;text-align:center;position:relative;width:100%}
+.eyebrow{color:var(--gold2);font-size:13px;letter-spacing:2px}.bismillah{font:700 28px Amiri;color:var(--gold2);margin:12px}.verse{font:400 18px Amiri;line-height:2;color:#e8dcc2;max-width:700px;margin:0 auto}
+.divider{height:1px;background:linear-gradient(90deg,transparent,var(--gold),transparent);margin:25px auto;max-width:620px}
+.invite{font-size:18px;color:#e5edf2}.name{font:700 clamp(62px,14vw,120px) Amiri;color:var(--gold2);margin:0;text-shadow:0 0 30px rgba(216,169,76,.25)}
+.sub{color:#ccd9e0}.date{display:flex;justify-content:center;gap:12px;flex-wrap:wrap;margin:24px 0}.date .box{min-width:145px;padding:14px 20px;border:1px solid rgba(216,169,76,.35);border-radius:18px;background:#07131f}.box b{display:block;color:var(--gold2);font-size:25px}.box small{color:var(--muted)}
+.location{padding:23px;margin-top:20px;background:linear-gradient(135deg,rgba(37,183,255,.08),rgba(216,169,76,.07));border-top:1px solid rgba(37,183,255,.18);border-bottom:1px solid rgba(37,183,255,.18)}
+.location strong{display:block;color:var(--gold2);font-size:25px}.location span{color:#c4d1d8;font-size:14px}
+.actions{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:20px}.btn{display:block;text-align:center;padding:13px 9px;border-radius:14px;border:1px solid rgba(216,169,76,.35);background:#091a29;color:#fff2cf;text-decoration:none;cursor:pointer}.btn:hover{transform:translateY(-2px)}.btn.primary{background:linear-gradient(135deg,#b77e1f,#f1ce78);color:#06101a;border:0}
+.count{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:25px 0}.t{padding:15px 5px;text-align:center;background:#06111b;border:1px solid rgba(37,183,255,.18);border-radius:16px}.t b{display:block;font-size:30px;color:#9fddfa}.t span{font-size:11px;color:#8fa0aa}
+
+/* Feature cards */
+.title{text-align:center;font:700 34px Amiri;color:var(--gold2);margin:0 0 6px}.desc{text-align:center;color:#aebbc4;font-size:13px}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;padding:20px}.feature{padding:24px 16px;text-align:center;border:1px solid rgba(216,169,76,.17);border-radius:20px;background:rgba(255,255,255,.018)}.icon{font-size:30px}.feature h3{color:var(--gold2);margin:8px 0}.feature p{color:#aebcc5;font-size:13px;line-height:1.8}
+.photo{padding:15px;text-align:center}.photo img{width:min(100%,560px);max-height:780px;object-fit:contain;border-radius:20px;border:1px solid rgba(216,169,76,.22);box-shadow:0 0 45px rgba(37,183,255,.08)}
+.rsvp{padding:30px 20px;text-align:center}.rsvp p{color:#b7c4cb;line-height:1.9}.rsvp .btn{width:min(100%,390px);margin:10px auto}
+.footer{text-align:center;color:#71818c;font-size:12px;padding:15px 0 40px}
+
+/* Floating controls */
+.controls{position:fixed;left:15px;bottom:15px;z-index:20;display:flex;gap:8px}.fab{width:45px;height:45px;border-radius:50%;border:1px solid rgba(216,169,76,.35);background:#071522;color:#ffe29a;cursor:pointer;box-shadow:0 8px 25px #0008}
+@media(max-width:700px){main{padding:12px}.hero{min-height:100vh}.hero-inner{padding:35px 14px}.actions{grid-template-columns:repeat(2,1fr)}.grid{grid-template-columns:1fr}.count{grid-template-columns:repeat(2,1fr)}.bismillah{font-size:24px}.verse{font-size:16px}}
+</style>
+</head>
+<body>
+
+<div id="opening">
+  <div class="open-card">
+    <div class="mini">بِسْمِ ٱللّٰهِ ٱلرَّحْمٰنِ ٱلرَّحِيمِ</div>
+    <div class="open-name">عبد النور</div>
+    <p>يدعوكم لمشاركته فرحة زفافه</p>
+    <button class="open-btn" onclick="openInvitation()">✨ افتح الدعوة</button>
+    <div class="tap">اضغط لبدء التجربة</div>
+  </div>
+</div>
+
+<div class="controls">
+  <button class="fab" id="soundBtn" onclick="toggleSound()" aria-label="الموسيقى">🔇</button>
+  <button class="fab" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="للأعلى">↑</button>
+</div>
+
+<main>
+<section class="glass hero" id="home">
+<div class="hero-inner">
+  <div class="eyebrow">دعوة إلكترونية • 2026</div>
+  <div class="bismillah">بِسْمِ ٱللّٰهِ ٱلرَّحْمٰنِ ٱلرَّحِيمِ</div>
+  <p class="verse">﴿ وَمِنْ آيَاتِهِ أَنْ خَلَقَ لَكُم مِّنْ أَنفُسِكُمْ أَزْوَاجًا لِّتَسْكُنُوا إِلَيْهَا وَجَعَلَ بَيْنَكُم مَّوَدَّةً وَرَحْمَةً ﴾</p>
+  <div class="divider"></div>
+  <div class="invite">بكل فرح وسرور، يسعدنا دعوتكم لحضور حفل زفاف</div>
+  <h1 class="name">عبد النور</h1>
+  <div class="sub">ومشاركتنا هذه المناسبة السعيدة</div>
+
+  <div class="date">
+    <div class="box"><b>11</b><small>سبتمبر 2026</small></div>
+    <div class="box"><b>الجمعة</b><small>موعدنا مع الفرح</small></div>
+  </div>
+
+  <div class="count">
+    <div class="t"><b id="d">--</b><span>يوم</span></div>
+    <div class="t"><b id="h">--</b><span>ساعة</span></div>
+    <div class="t"><b id="m">--</b><span>دقيقة</span></div>
+    <div class="t"><b id="s">--</b><span>ثانية</span></div>
+  </div>
+
+  <div class="location">
+    <strong>ثانوية شمومة</strong>
+    <span>ثانوية شمومة محمد — عين تادلس</span>
+  </div>
+
+  <div class="actions">
+    <a class="btn primary" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=X7WR%2B52F%2C%20Ain%20Tedles">📍 الخريطة</a>
+    <button class="btn" onclick="calendar()">📅 التقويم</button>
+    <button class="btn" onclick="share()">↗ مشاركة</button>
+    <button class="btn" onclick="copyLink()">🔗 نسخ الرابط</button>
+  </div>
+</div>
+</section>
+
+<section class="glass">
+  <div style="padding:25px 20px 0">
+    <h2 class="title">تجربة الدعوة</h2>
+    <p class="desc">كل ما يحتاجه الضيف في مكان واحد</p>
+  </div>
+  <div class="grid">
+    <div class="feature"><div class="icon">📍</div><h3>الوصول بسهولة</h3><p>افتح الخريطة مباشرة من هاتفك للوصول إلى القاعة.</p></div>
+    <div class="feature"><div class="icon">📅</div><h3>لا تنسَ الموعد</h3><p>أضف المناسبة إلى تقويم هاتفك بضغطة واحدة.</p></div>
+    <div class="feature"><div class="icon">↗️</div><h3>شاركها</h3><p>أرسل الدعوة للعائلة والأصدقاء مباشرة من الموقع.</p></div>
+  </div>
+</section>
+
+<section class="glass photo">
+  <h2 class="title">بطاقة الدعوة</h2>
+  <p class="desc">التصميم الرسمي للدعوة</p>
+  <img src="invitation.png" alt="بطاقة دعوة زفاف عبد النور">
+</section>
+
+<section class="glass rsvp">
+  <h2 class="title">تأكيد الحضور</h2>
+  <p>يمكن تخصيص هذا الزر لفتح محادثة WhatsApp مع صاحب الدعوة لتأكيد الحضور.</p>
+  <a class="btn primary" href="#" onclick="rsvp(event)">💬 تأكيد الحضور عبر WhatsApp</a>
+  <p style="font-size:11px;color:#71818c">ضع رقم WhatsApp في إعدادات الموقع قبل النشر.</p>
+</section>
+
+<div class="footer">بكل المحبة • عبد النور • 11 سبتمبر 2026</div>
+</main>
+
+<script>
+// =====================
+// إعدادات سهلة التعديل
+// =====================
+const CONFIG = {
+  // مثال: "2135XXXXXXXX" بدون + أو مسافات
+  whatsapp: "213668709733",
+  eventISO: "2026-09-11T18:00:00+01:00",
+  title: "حفل زفاف عبد النور",
+  location: "ثانوية شمومة محمد، عين تادلس"
+};
+
+function openInvitation(){
+  document.getElementById('opening').classList.add('hide');
+  startChime();
+}
+const target=new Date(CONFIG.eventISO);
+function tick(){
+  let x=Math.max(0,target-new Date());
+  document.getElementById('d').textContent=Math.floor(x/86400000);
+  document.getElementById('h').textContent=Math.floor(x/3600000)%24;
+  document.getElementById('m').textContent=Math.floor(x/60000)%60;
+  document.getElementById('s').textContent=Math.floor(x/1000)%60;
+}
+tick();setInterval(tick,1000);
+
+function calendar(){
+  const st="20260911T180000", en="20260911T235900";
+  const ics=["BEGIN:VCALENDAR","VERSION:2.0","PRODID:-//Wedding Invitation//AR","BEGIN:VEVENT",
+  "DTSTART:"+st,"DTEND:"+en,"SUMMARY:"+CONFIG.title,"LOCATION:"+CONFIG.location,
+  "DESCRIPTION:دعوة إلكترونية لحفل زفاف عبد النور","END:VEVENT","END:VCALENDAR"].join("\r\n");
+  const blob=new Blob([ics],{type:"text/calendar;charset=utf-8"});
+  const a=document.createElement("a");a.href=URL.createObjectURL(blob);a.download="wedding-abdelnour.ics";a.click();
+}
+async function share(){
+  const data={title:CONFIG.title,text:"يسعدنا دعوتكم لحضور حفل زفاف عبد النور يوم 11 سبتمبر 2026.",url:location.href};
+  try{if(navigator.share) await navigator.share(data);else await copyLink();}catch(e){}
+}
+async function copyLink(){
+  try{await navigator.clipboard.writeText(location.href);alert("تم نسخ رابط الدعوة.");}
+  catch(e){prompt("انسخ الرابط:",location.href);}
+}
+function rsvp(e){
+  e.preventDefault();
+  if(CONFIG.whatsapp.includes("X")){alert("أضف رقم WhatsApp في CONFIG داخل index.html قبل النشر.");return}
+  const msg=encodeURIComponent("السلام عليكم، أود تأكيد حضوري لحفل زفاف عبد النور يوم 11 سبتمبر 2026.");
+  location.href="https://wa.me/"+CONFIG.whatsapp+"?text="+msg;
+}
+
+// Chime created locally with Web Audio; no external music file needed.
+let audioCtx,playing=false;
+function startChime(){
+  if(playing)return;
+  try{
+    audioCtx=new (window.AudioContext||window.webkitAudioContext)();
+    const now=audioCtx.currentTime;
+    [523.25,659.25,783.99].forEach((f,i)=>{
+      const o=audioCtx.createOscillator(),g=audioCtx.createGain();
+      o.frequency.value=f;o.type="sine";g.gain.setValueAtTime(.0001,now+i*.16);
+      g.gain.exponentialRampToValueAtTime(.045,now+i*.16+.04);
+      g.gain.exponentialRampToValueAtTime(.0001,now+i*.16+.7);
+      o.connect(g).connect(audioCtx.destination);o.start(now+i*.16);o.stop(now+i*.16+.8);
+    });
+    playing=true;document.getElementById("soundBtn").textContent="🔊";
+  }catch(e){}
+}
+function toggleSound(){
+  if(!audioCtx){startChime();return}
+  if(audioCtx.state==="running"){audioCtx.suspend();document.getElementById("soundBtn").textContent="🔇"}
+  else{audioCtx.resume();document.getElementById("soundBtn").textContent="🔊"}
+}
+</script>
+</body>
+</html>
